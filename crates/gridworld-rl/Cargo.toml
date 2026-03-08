@@ -7,7 +7,7 @@ description = "A deep reinforcement learning 2D gridworld environment with singl
 repository = "https://github.com/jrcalgo/relayrl-end2end"
 documentation = "https://docs.rs/crate/gridworld-rl"
 readme = "README.md"
-keywords = ["rl", "environment", "gridworld"]
+keywords = ["relayrl", "rl", "environment", "gridworld", "learning"]
 categories = ["science", "simulation", "command-line-utilities", "development-tools::testing", "development-tools::profiling"]
 license = "Apache-2.0"
 
