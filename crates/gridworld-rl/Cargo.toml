@@ -5,7 +5,7 @@ authors = ["jrcalgo <jacksonr121@outlook.com"]
 edition = "2024"
 description = "A deep reinforcement learning 2D gridworld environment with single- and multi-agent support."
 repository = "https://github.com/jrcalgo/relayrl-end2end"
-documentation = "https://docs.rs/crate/gridworld-rl"
+documentation = "https://docs.rs/gridworld-rl"
 readme = "README.md"
 keywords = ["relayrl", "rl", "environment", "gridworld", "learning"]
 categories = ["science", "simulation", "command-line-utilities", "development-tools::testing", "development-tools::profiling"]
@@ -15,6 +15,9 @@ license = "Apache-2.0"
 name = "gridworld_rl"
 crate-type = ["rlib"]
 
+[features]
+render = ["iced"]
+
 [dependencies]
 relayrl_framework = { workspace = true }
-iced = { workspace = true }
+iced = { workspace = true, optional = true }
