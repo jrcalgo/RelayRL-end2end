@@ -329,6 +329,12 @@ where
         self.actors.borrow().len()
     }
 
+    /// Returns the current grid position of every actor, in actor-index order.
+    #[cfg(feature = "render")]
+    pub fn get_actor_positions(&self) -> Vec<(isize, isize)> {
+        self.actors.borrow().iter().map(|a| a.current_position).collect()
+    }
+
     fn is_in_bounds(&self, pos: (isize, isize)) -> bool {
         pos.0 >= 0
             && pos.0 < self.length as isize
