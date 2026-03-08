@@ -16,5 +16,5 @@ name = "gridworld_rl"
 crate-type = ["rlib"]
 
 [dependencies]
-relayrl-framework = { workspace = true }
+relayrl_framework = { workspace = true }
 iced = { workspace = true }

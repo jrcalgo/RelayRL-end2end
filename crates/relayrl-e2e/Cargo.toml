@@ -17,5 +17,5 @@ relayrl_framework = "0.5.0-alpha.1"
 tokio = "1.49.0"
 clap = "4.5.54"
 
-gridworld-rl = "0.1.0"
+# gridworld-rl = "0.1.0"
 
