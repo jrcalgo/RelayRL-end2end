@@ -5,12 +5,8 @@ A 2D gridworld environment for reinforcement learning with single- and multi-age
 Optional GUI rendering (iced) is behind the `render` feature:
 
 ```toml
-gridworld-rl = { version = "0.1", features = ["render"] }
+gridworld-rl = { version = "0.1.1", features = ["render"] }
 ```
-
-## Documentation
-
-[docs.rs/gridworld-rl](https://docs.rs/gridworld-rl)
 
 ## License
 
